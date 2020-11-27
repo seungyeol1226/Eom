@@ -64,7 +64,9 @@ aside {
 .page{
     height: 100vh;
     overflow: hidden;
-    padding-top: 4%;
+}
+.page1{
+    padding-top:10%;
 }
 
 
@@ -163,7 +165,7 @@ aside {
 .page2 {
         margin: 0 auto;
         width: 70%;
-        height: 900px;
+        padding-top:5%;
     
     }
 .page2-pro{
@@ -265,7 +267,7 @@ h2 {
 }
 .page3 {
     width: 70%;
-    padding-top: 3%;
+    padding-top: 15%;
 }
 
 .project{
@@ -293,7 +295,7 @@ margin-top: 17%;
 /* ------------------page3--------------------- */
 .page4{
     width: 70%;
-    padding-top: 3%;
+    padding-top: 5%;
 }
 .con{
     margin-left: 32%;
