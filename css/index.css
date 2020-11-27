@@ -7,7 +7,9 @@ body,html {
     background-color: #070a1a;
     overflow: hidden;
 }
-
+.background-1 {
+    color: #181818;
+}
 header{
     position: fixed;
     top: 0;
@@ -34,6 +36,7 @@ header nav {
     justify-content: space-between;
     align-items: center;
 }
+.h-menu .active{color: #eeeeee; opacity: 100%;}
 .h-menu div{
     width: 40%;
     text-align: center;
@@ -45,66 +48,101 @@ header nav {
     color: #626262;
     opacity: 60%;
 }
-.h-menu .active{
-    color: #ffffff;
-}
-
-
 /* ------------------------------------------------------- */
 article{
     position: absolute;
     width: 100%;
+    margin-top: 100px;
     transition: 1s;
+}
+aside {
+    position: fixed;
+    right: 10%;
+    top: 90%;
+    color:#fff;
+    z-index: 100;
 }
 .page{
     height: 100vh;
-    padding-top: 10% !important;
+    overflow: hidden;
+    padding-top: 6%;
 }
 
-.page2{
-    padding-top: 3%;
-    
-}
+
 .main{
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 2%;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
 
 }
 .logo_e{
-    margin: 0 !important;
+    position: absolute;
+    margin: 0;
     font-size: 250pt;
     color: #ffffff;
+    bottom: 100%;
+    transition: 1s;
+    left: 20%;
 }
-.logo_e span{
-    top : 50%;
+.main:hover .logo_e{
+    bottom: 46%;
 }
+
 .logo_mid{
+    position: absolute;
     margin: 0;
     font-size: 40pt;
     color: #ffffff;
 }
+.logo_mid .mid{
+    position: relative;
+}
+.logo_mid .mid span{
+    position: absolute;
+    top: 20%;
+    left: 22%;
+    cursor: pointer;
+    transition: 1.5s;
+    
+}
 .logo_m{
+    
+    position: absolute;
     margin: 0;
     color: #ffffff;
     font-size: 200pt;
-
+    bottom: 100%; 
+    right: 18%;
+    transition: 1s;
 }
-
+.main:hover .logo_m{
+    bottom: 50%;
+}
+.main:hover #circle1{
+    opacity: 1;
+    top: -20%;
+}
 #circle1 {
-    
-    border: 1px solid #ffffff;
-    width:580px;
-    height:560px;
-    border-radius:580px;
+    position: absolute;
+    border: 40px solid #ffffff;
+    width:75%;
+    height:75%;
+    border-radius:50%;
     text-align:center;
     margin:0 auto;
     vertical-align:middle;
     line-height:150px;
+    opacity: 0;
+    transition: 1s;
+    top: 10%;
+    left: 6%;
     }
 #circle2 {
-    position:center;
+    position: absolute;;
     border:1px solid #ffffff;
     width:580px; height:570px;
     border-radius:580px;
@@ -113,6 +151,7 @@ article{
     vertical-align:middle;
     line-height:100px;
     position: relative;
+    opacity: 0;
     }
 
 #circle2 span{
@@ -125,6 +164,7 @@ article{
 .page2 {
         margin: 0 auto;
         width: 70%;
+        height: 900px;
     
     }
 .page2-pro{
@@ -226,14 +266,13 @@ h2 {
 }
 .page3 {
     width: 70%;
+    padding-top: 3%;
 }
-.page3 h2{
-    margin: 7% 0 ;
-}
+
 .project{
     position: relative;
     width: 80%;
-    margin-top: 1%;
+    margin-top: 10%;
 }
 .pj{
     width: 100%;
@@ -263,6 +302,7 @@ margin-top: 17%;
 }
 
 .con table{
+    letter-spacing: 0.1em;
     width: 80%;
     height: 40%;
     margin-top: 40%;  

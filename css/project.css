@@ -1,0 +1,126 @@
+* { 
+    margin: 0 auto;
+    font-family: "Expo M";
+}
+
+body,html {
+    background-color: #181818;
+    overflow: hidden;
+}
+.background-1 {
+    color: #181818;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+}
+header .background{
+    height: 60px;
+    background-color: #181818;
+}
+header nav {
+    border-top: 1px solid #1f1f1f;
+}
+.h-cer{
+    display: flex;
+    width: 30%;
+    opacity: 0.6;
+}
+.h-menu{
+    width: 30%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.h-menu .active{color: #ffffff;}
+.h-menu div{
+    width: 40%;
+    text-align: center;
+}
+.h-menu div a {
+    font-size: 10pt;
+    padding-top: 20px;
+    text-decoration: none;
+    color: #626262;
+    opacity: 60%;
+}
+
+.page1 {
+    margin-top: 5%;
+}
+
+/* ------------------------------------------------------- */
+article{
+    position: absolute;
+    width: 100%;
+    margin-top: 100px;
+    transition: 1s;
+}
+
+.page{
+    height: 100vh;
+}
+
+.page2{
+    padding-top: 3%;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
+
+}
+.logo_e{
+    margin: 0 !important;
+    font-size: 250pt;
+    color: #ffffff;
+}
+.logo_e span{
+    top : 50%;
+}
+.logo_mid{
+    margin: 0;
+    font-size: 40pt;
+    color: #ffffff;
+}
+.logo_m{
+    margin: 0;
+    color: #ffffff;
+    font-size: 200pt;
+
+}
+
+#circle1 {
+    
+    border: 1px solid #ffffff;
+    width:580px;
+    height:560px;
+    border-radius:580px;
+    text-align:center;
+    margin:0 auto;
+    vertical-align:middle;
+    line-height:150px;
+    }
+#circle2 {
+    position:center;
+    border:1px solid #ffffff;
+    width:580px; height:570px;
+    border-radius:580px;
+    text-align:center;
+    margin:0 auto;
+    vertical-align:middle;
+    line-height:100px;
+    position: relative;
+    }
+
+#circle2 span{
+        position:absolute;
+        top:40%;
+        left:23%;
+    }
+    /*--------------------- page1 -------------------*/
