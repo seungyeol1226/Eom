@@ -1,0 +1,289 @@
+* { 
+    margin: 0 auto;
+    font-family: "Expo M";
+}
+
+body,html {
+    background-color: #070a1a;
+    overflow: hidden;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+}
+header .background{
+    height: 60px;
+    background-color: #070a1a;
+}
+header nav {
+    border-top: 1px solid #1f1f1f;
+}
+.h-cer{
+    display: flex;
+    width: 30%;
+    opacity: 0.6;
+}
+.h-menu{
+    width: 30%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.h-menu div{
+    width: 40%;
+    text-align: center;
+}
+.h-menu div a {
+    font-size: 10pt;
+    padding-top: 20px;
+    text-decoration: none;
+    color: #626262;
+    opacity: 60%;
+}
+.h-menu .active{
+    color: #ffffff;
+}
+
+
+/* ------------------------------------------------------- */
+article{
+    position: absolute;
+    width: 100%;
+    transition: 1s;
+}
+.page{
+    height: 100vh;
+    padding-top: 10% !important;
+}
+
+.page2{
+    padding-top: 3%;
+    
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2%;
+
+}
+.logo_e{
+    margin: 0 !important;
+    font-size: 250pt;
+    color: #ffffff;
+}
+.logo_e span{
+    top : 50%;
+}
+.logo_mid{
+    margin: 0;
+    font-size: 40pt;
+    color: #ffffff;
+}
+.logo_m{
+    margin: 0;
+    color: #ffffff;
+    font-size: 200pt;
+
+}
+
+#circle1 {
+    
+    border: 1px solid #ffffff;
+    width:580px;
+    height:560px;
+    border-radius:580px;
+    text-align:center;
+    margin:0 auto;
+    vertical-align:middle;
+    line-height:150px;
+    }
+#circle2 {
+    position:center;
+    border:1px solid #ffffff;
+    width:580px; height:570px;
+    border-radius:580px;
+    text-align:center;
+    margin:0 auto;
+    vertical-align:middle;
+    line-height:100px;
+    position: relative;
+    }
+
+#circle2 span{
+        position:absolute;
+        top:40%;
+        left:23%;
+    }
+    /*--------------------- page1 -------------------*/
+
+.page2 {
+        margin: 0 auto;
+        width: 70%;
+    
+    }
+.page2-pro{
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+.about{
+        width: 100%;
+        height: 40%;
+        float: left;
+    }
+
+.about table{
+        width: 80%;
+        height: 40%;
+        margin: 0;
+        
+    }
+.about table thead{
+        color: #ffffff;
+        font-size:  20pt;
+    }
+.about table thead th{
+        padding-bottom: 40px;
+        text-align: left ;
+    }
+.about table{
+        font-size: 12pt;
+    }
+.about table tbody td{ 
+        padding :0% 10% 4% 0%;
+    }
+.about table tbody .t-f{ 
+        width: 150px;
+        color: #2a325a;
+    }
+.about table tbody .t-t{ 
+        color: #ffffff;
+    }
+    
+
+.skill{
+        width: 100%;
+        height: 40%;
+        float: left;
+    }
+
+.skill table{
+        width: 80%;
+        height: 40%;
+        margin: 0;
+        
+    }
+.skill table thead{
+        color: #ffffff;
+        font-size:  22pt;
+        padding-bottom: 100px;
+    }
+.skill table thead th{
+        padding-bottom: 40px;
+        text-align: left;
+    }
+
+.skill table tbody td{ 
+        padding :0% 2% 4% 0%;
+    }
+.skill table tbody .t-f{ 
+        color: #a2b1fc;
+        width: 200px;
+    }
+
+
+.mini-cer {
+        width: 12px; height: 12px;
+        border: 2px solid #ffffff;
+        border-radius: 50%;
+        display: inline-block;
+        margin: auto 3px;
+    }
+.mini-cer.yes{
+        background-color: #ffffff;
+    }
+    
+.profile{
+        width: 50%;
+        float: right;
+}
+.profile .pro-poto{
+        width: 300px;
+        height: 600px;
+        background-color: beige;
+ }
+/* -----------------page2----------------- */
+h2 {
+    color: #ffffff;
+    font-size: 22pt;
+}
+.page3 {
+    width: 70%;
+}
+.page3 h2{
+    margin: 7% 0 ;
+}
+.project{
+    position: relative;
+    width: 80%;
+    margin-top: 1%;
+}
+.pj{
+    width: 100%;
+    position: absolute;
+}
+.pj img{
+    width: 100%;
+    height: 100%;
+}
+.bt{
+margin-top: 17%;
+}
+.next{
+    float: right;
+}
+.before{
+    float: left;
+}
+/* ------------------page3--------------------- */
+.page4{
+    width: 70%;
+    padding-top: 3%;
+}
+.con{
+    margin-left: 32%;
+    width: 60%;
+}
+
+.con table{
+    width: 80%;
+    height: 40%;
+    margin-top: 40%;  
+}
+.con table{
+    font-size: 12pt;
+}
+.con table tbody td{ 
+    padding :0% 10% 4% 0%;
+}
+.con table tbody .t-f{ 
+    color: #2a325a;
+}
+.con table tbody .t-t{ 
+    color: #ffffff;
+    text-align: left;
+}
+p {
+    text-align: center;
+    color: #ffffff;
+    font-size: 15pt;
+    margin-top: 10%;
+}
+/* ------------------------page4------------------------- */
