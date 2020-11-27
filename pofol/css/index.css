@@ -267,7 +267,7 @@ h2 {
 }
 .page3 {
     width: 70%;
-    padding-top: 15%;
+    padding-top: 8%;
 }
 
 .project{
@@ -301,12 +301,15 @@ margin-top: 17%;
     margin-left: 32%;
     width: 60%;
 }
+h2{
+    margin-top:5%;
+}
 
 .con table{
     letter-spacing: 0.1em;
     width: 80%;
     height: 40%;
-    margin-top: 40%;  
+    margin-top: 30%;  
 }
 .con table{
     font-size: 12pt;
